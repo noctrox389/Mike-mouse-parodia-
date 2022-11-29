@@ -1,0 +1,16 @@
+function onCreate()
+    makeLuaSprite('bg','DestruidoBG',-600)
+    addLuaSprite('bg')
+    scaleObject('bg', 2.5, 2.5)
+
+	makeAnimatedLuaSprite('grain', 'grain')
+	addAnimationByPrefix('grain', 'idle', 'grain', 24, true)
+	setGraphicSize('grain', screenWidth + 6, screenHeight + 6)
+	screenCenter('grain')
+	setObjectCamera('grain', 'other')
+	setProperty('grain.x', getProperty('grain.x') + 3)
+	setProperty('grain.y', getProperty('grain.y') + 3)
+	setProperty('grain.antialiasing', false)
+	addLuaSprite('grain', false)
+	objectPlayAnimation('grain', 'idle', true)
+end
