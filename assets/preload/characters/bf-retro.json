@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				-22
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-65,
+				-19
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-57,
+				-28
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF Dead confirm"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				20
+			],
+			"anim": "idle",
+			"fps": 15,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				47
+			],
+			"anim": "singUP",
+			"fps": 17,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-86,
+				22
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				5
+			],
+			"anim": "singLEFT",
+			"fps": 16,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				-38
+			],
+			"anim": "singDOWN",
+			"fps": 16,
+			"name": "BF NOTE DOWN0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BOYFRIEND_RETRO",
+	"position": [
+		355,
+		495
+	],
+	"healthicon": "bf-suicide",
+	"flip_x": true,
+	"healthbar_colors": [
+		125,
+		128,
+		142
+	],
+	"camera_position": [
+		210,
+		-90
+	],
+	"sing_duration": 4,
+	"scale": 2.3
+}
